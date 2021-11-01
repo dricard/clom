@@ -19,11 +19,15 @@ hugo.linux
 .AppleDouble
 .LSOverride
 
+# Nova
+.nova/
+
+
 # Icon must end with two \r
 Icon
 
 # Obsidian
-**/.obsidian
+**/.obsidian/
 
 # Thumbnails
 **/._*
