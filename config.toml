@@ -1,0 +1,14 @@
+baseURL = "https://hexaedre.com"
+languageCode = "en-us"
+title = "CLanlord Online Manual"
+
+# Change the default theme to be use when building the site with Hugo
+theme = "hugo-theme-learn"
+
+# landing page
+landingPageURL = "/"
+landingPageName = "Clanlord Manual"
+
+# For search functionality
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
