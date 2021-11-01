@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Welcome to the Clanlord Unofficial Manual, the right place to start your exploration of this great game by Delta Tao.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css">
+    <title>Clanlord Unofficial Manual</title>
+    <script>
+      function updateSplash() {
+          rndNumber = (Math.floor(Math.random()*141));
+          document.getElementById('splash').src = `image/splash/cl_splash_${rndNumber}.webp`;
+          currentLogoIndex++;
+          currentLogoIndex %= logos.length;
+      }
+      window.setInterval(updateSplash, 5000);
+      updateSplash();
+    </script>
+  </head>
+  <body class="home">
+    <section>
+      <h1>Clanlord Manual</h1>
+      <h2>Getting you started in the Lok'groton Islands.</h2>
+      <a href="./about">Explore</a>
+      <img id="splash" alt="cl splash screen" src="image/splash/cl_splash_141.webp"/>
+    </section>
+  </body>
+</html>
